@@ -29,7 +29,7 @@ const currencyUnit={
       cidSum+=currSum;//sum of money in drawer
       
       
-      let amount=0;
+      let amount=0;//amount of change given
       while(changeSum>=currencyUnit[curr]&&currSum>0){//how many of that denomination in register
         amount+=currencyUnit[curr];
         changeSum-=currencyUnit[curr];//reduce ChangeSum after giving out
